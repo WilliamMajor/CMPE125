@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Feb 19 19:53:17 2019
+# Process ID: 9164
+# Current directory: C:/Users/William Major/Documents/School/Cmpe 125 Projects/4_bit_shift_rotate/4_bit_shift_rotate.runs/impl_1
+# Command line: vivado.exe -log four_bit_shift_rotate_fpga.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source four_bit_shift_rotate_fpga.tcl -notrace
+# Log file: C:/Users/William Major/Documents/School/Cmpe 125 Projects/4_bit_shift_rotate/4_bit_shift_rotate.runs/impl_1/four_bit_shift_rotate_fpga.vdi
+# Journal file: C:/Users/William Major/Documents/School/Cmpe 125 Projects/4_bit_shift_rotate/4_bit_shift_rotate.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source four_bit_shift_rotate_fpga.tcl -notrace

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_eight_bit_CLA_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_eight_bit_CLA" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16450000000fs"></ZoomStartTime>
+      <ZoomEndTime time="17899000001fs"></ZoomEndTime>
+      <Cursor1Time time="17578000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/tb_eight_bit_CLA/A" type="array">
+      <obj_property name="ElementShortName">A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eight_bit_CLA/B" type="array">
+      <obj_property name="ElementShortName">B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eight_bit_CLA/Sum" type="array">
+      <obj_property name="ElementShortName">Sum[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Sum[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eight_bit_CLA/expected" type="array">
+      <obj_property name="ElementShortName">expected[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expected[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eight_bit_CLA/idx" type="array">
+      <obj_property name="ElementShortName">idx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eight_bit_CLA/error" type="array">
+      <obj_property name="ElementShortName">error[7:0]</obj_property>
+      <obj_property name="ObjectShortName">error[7:0]</obj_property>
+   </wvobject>
+</wave_config>

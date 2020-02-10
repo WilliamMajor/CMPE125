@@ -1,0 +1,7 @@
+Running: xsim.dir/sc_four_bit_shift_rotate_behav/xsimk.exe -simmode gui -wdb sc_four_bit_shift_rotate_behav.wdb -simrunnum 0 -socket 55230
+Design successfully loaded
+Design Loading Memory Usage: 4844 KB (Peak: 4844 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5480 KB (Peak: 5480 KB)
+Simulation CPU Usage: 31 ms

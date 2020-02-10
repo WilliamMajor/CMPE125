@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../lab2_voting_machine/lab2_voting_machine/sources/voting_rule.v" \
+"../../../../voting_machine.srcs/sources_1/new/tb_voting_rule.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

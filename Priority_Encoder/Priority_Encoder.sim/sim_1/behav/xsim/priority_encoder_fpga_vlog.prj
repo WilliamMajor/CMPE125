@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../voting_machine/voting_machine.srcs/sources_1/new/bcd_to_7seg.v" \
+"../../../../../voting_machine/voting_machine.srcs/sources_1/new/clk_gen.v" \
+"../../../../../voting_machine/voting_machine.srcs/sources_1/new/led_mux.v" \
+"../../../../Priority_Encoder.srcs/sources_1/new/priority_encoder_casez.v" \
+"../../../../Priority_Encoder.srcs/sources_1/new/priority_encoder_fpga.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

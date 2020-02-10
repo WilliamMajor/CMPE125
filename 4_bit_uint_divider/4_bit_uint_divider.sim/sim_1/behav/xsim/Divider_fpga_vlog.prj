@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/Control_Unit.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/Divider.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/imports/new/bcd_to_7seg.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/new/button_debouncer.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/imports/new/clk_gen.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/comparator.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/new/eight_bit_binary_to_decimal.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/imports/imports/new/led_mux.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/imports/imports/sources/mux2.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/nor4.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/or4.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/shift_register.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/subtractor.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/ud_counter.v" \
+"../../../../4_bit_uint_divider.srcs/sources_1/new/Divider_fpga.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

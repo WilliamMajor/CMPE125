@@ -1,0 +1,20 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto aa5782f48209434ba052e09f25153b10 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_small_calculator_behav xil_defaultlib.tb_small_calculator xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/small_calculator/small_calculator.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.small_calculator_dp
+Compiling module xil_defaultlib.small_calculator_cu
+Compiling module xil_defaultlib.small_calculator
+Compiling module xil_defaultlib.tb_small_calculator
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_small_calculator_behav

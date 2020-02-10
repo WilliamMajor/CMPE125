@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../small_calculator.srcs/sources_1/imports/sources/alu.v" \
+"../../../../small_calculator.srcs/sources_1/imports/sources/mux2.v" \
+"../../../../small_calculator.srcs/sources_1/imports/sources/mux4.v" \
+"../../../../small_calculator.srcs/sources_1/imports/sources/register_file.v" \
+"../../../../small_calculator.srcs/sources_1/imports/sources/small_calculator.v" \
+"../../../../small_calculator.srcs/sources_1/imports/sources/small_calculator_cu.v" \
+"../../../../small_calculator.srcs/sources_1/imports/sources/small_calculator_dp.v" \
+"../../../../small_calculator.srcs/sim_1/imports/testbenches/tb_small_calculator.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

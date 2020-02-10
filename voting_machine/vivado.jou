@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Feb 12 14:31:38 2019
+# Process ID: 13304
+# Current directory: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/voting_machine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3492 D:\Documents HDD\School\Cmpe 125\Cmpe 125 Projects\voting_machine\voting_machine.xpr
+# Log file: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/voting_machine/vivado.log
+# Journal file: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/voting_machine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/voting_machine/voting_machine.xpr}
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Apr 30 23:38:33 2019
+# Process ID: 41780
+# Current directory: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.sim/sim_1/behav/xsim/xsim.dir/Divider_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Documents -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "D:/Documents" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 30 23:38:33 2019...

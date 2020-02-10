@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/AND.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/CLA.v" \
+"../../../../Full_Calc.srcs/sources_1/new/CU.v" \
+"../../../../Full_Calc.srcs/sources_1/new/Calculator.v" \
+"../../../../Full_Calc.srcs/sources_1/new/Calculator_CU.v" \
+"../../../../Full_Calc.srcs/sources_1/new/Calculator_DP.v" \
+"../../../../Full_Calc.srcs/sources_1/new/DP.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/D_reg_clk.v" \
+"../../../../Full_Calc.srcs/sources_1/new/Divider.v" \
+"../../../../Full_Calc.srcs/sources_1/new/Full_Calc.v" \
+"../../../../Full_Calc.srcs/sources_1/new/Full_Calc_CU.v" \
+"../../../../Full_Calc.srcs/sources_1/new/Full_Calc_DP.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/Shift_and_zero_pad.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/XOR.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/eight_bit_CLA_Adder.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/four_bit_CLA_Adder.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/half_adder.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/state_register.v" \
+"../../../../Full_Calc.srcs/sources_1/new/support_modules.v" \
+"../../../../../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/two_stage_pipeline_mult.v" \
+"../../../../Full_Calc.srcs/sim_1/new/Full_Calc_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

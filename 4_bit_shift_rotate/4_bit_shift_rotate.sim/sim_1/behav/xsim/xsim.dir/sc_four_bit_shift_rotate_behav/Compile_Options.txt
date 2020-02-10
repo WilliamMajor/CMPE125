@@ -1,0 +1,1 @@
+-wto "56ea65c463754d669a7d83d0fc122f94" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "sc_four_bit_shift_rotate_behav" "xil_defaultlib.sc_four_bit_shift_rotate" "xil_defaultlib.glbl" -log "elaborate.log" 

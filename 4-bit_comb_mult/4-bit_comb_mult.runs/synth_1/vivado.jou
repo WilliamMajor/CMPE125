@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Mar 15 21:58:59 2019
+# Process ID: 2284
+# Current directory: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.runs/synth_1
+# Command line: vivado.exe -log two_stage_pipeline_mult_fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source two_stage_pipeline_mult_fpga.tcl
+# Log file: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.runs/synth_1/two_stage_pipeline_mult_fpga.vds
+# Journal file: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source two_stage_pipeline_mult_fpga.tcl -notrace

@@ -1,0 +1,41 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 887ad9ac112142cb8416c256cee9e98a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Divider_tb_behav xil_defaultlib.Divider_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port LeftIn [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:46]
+WARNING: [VRFC 10-278] actual bit length 36 differs from formal bit length 5 for port D [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:48]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 5 for port Q [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:49]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port SR [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:56]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port LeftIn [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:58]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port SL [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:67]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port SR [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:68]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port LeftIn [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:70]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port RightIn [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:71]
+WARNING: [VRFC 10-278] actual bit length 128 differs from formal bit length 4 for port b [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:92]
+WARNING: [VRFC 10-278] actual bit length 128 differs from formal bit length 4 for port b [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:99]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port updown [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:106]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port reset [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:108]
+WARNING: [VRFC 10-278] actual bit length 35 differs from formal bit length 4 for port D [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:110]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:48]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:92]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:99]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/new/four_bit_uint_divider_DP.v:110]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.ShftReg(Data_width=5)
+Compiling module xil_defaultlib.ShftReg
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.subtractor
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.ud_counter
+Compiling module xil_defaultlib.or4
+Compiling module xil_defaultlib.nor4
+Compiling module xil_defaultlib.four_bit_uint_divider_DP
+Compiling module xil_defaultlib.Divider
+Compiling module xil_defaultlib.Divider_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Divider_tb_behav

@@ -1,0 +1,14 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 6037e9949b9c463f8d70d762e589b1b7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sc_tb_priority_encoder_behav xil_defaultlib.sc_tb_priority_encoder xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 4 for port Y [D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/Priority_Encoder/Priority_Encoder.srcs/sim_1/new/sc_tb_priority_encoder.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.priority_encoder_casez
+Compiling module xil_defaultlib.sc_tb_priority_encoder
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sc_tb_priority_encoder_behav

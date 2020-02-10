@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/AND.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/CLA.v" \
+"../../../../SafeProject.srcs/sources_1/new/CU.v" \
+"../../../../SafeProject.srcs/sources_1/new/Calculator.v" \
+"../../../../SafeProject.srcs/sources_1/new/Calculator_CU.v" \
+"../../../../SafeProject.srcs/sources_1/new/Calculator_DP.v" \
+"../../../../SafeProject.srcs/sources_1/new/DP.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/D_reg_clk.v" \
+"../../../../SafeProject.srcs/sources_1/new/Divider.v" \
+"../../../../SafeProject.srcs/sources_1/new/Full_Calc.v" \
+"../../../../SafeProject.srcs/sources_1/new/Full_Calc_CU.v" \
+"../../../../SafeProject.srcs/sources_1/new/Full_Calc_DP.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/Shift_and_zero_pad.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/XOR.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/eight_bit_CLA_Adder.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/four_bit_CLA_Adder.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/half_adder.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/state_register.v" \
+"../../../../SafeProject.srcs/sources_1/new/support_modules.v" \
+"../../../../SafeProject.srcs/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/two_stage_pipeline_mult.v" \
+"../../../../SafeProject.srcs/sim_1/new/Full_Calc_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

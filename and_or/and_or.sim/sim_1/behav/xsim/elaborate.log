@@ -1,0 +1,16 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto eada0ff714b5465dbe3adba6e65f01c5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_and_or_self_checking_behav xil_defaultlib.tb_and_or_self_checking xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/and_or/and_or.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.and2
+Compiling module xil_defaultlib.or2
+Compiling module xil_defaultlib.and_or
+Compiling module xil_defaultlib.tb_and_or_self_checking
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_and_or_self_checking_behav

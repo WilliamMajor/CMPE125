@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1557258037">
+  <File Type="ROUTE-PWR" Name="Full_Calc_FPGA_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Full_Calc_FPGA.tcl"/>
+  <File Type="BITSTR-BMM" Name="Full_Calc_FPGA_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="Full_Calc_FPGA_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Full_Calc_FPGA_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Full_Calc_FPGA_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Full_Calc_FPGA_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Full_Calc_FPGA.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Full_Calc_FPGA_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Full_Calc_FPGA_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Full_Calc_FPGA_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Full_Calc_FPGA_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Full_Calc_FPGA_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Full_Calc_FPGA_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Full_Calc_FPGA_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Full_Calc_FPGA.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Full_Calc_FPGA_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Full_Calc_FPGA.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Full_Calc_FPGA_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Full_Calc_FPGA.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Full_Calc_FPGA_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Full_Calc_FPGA_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Full_Calc_FPGA_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Full_Calc_FPGA_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Full_Calc_FPGA_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Full_Calc_FPGA_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="Full_Calc_FPGA.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Full_Calc_FPGA_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Full_Calc_FPGA.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Full_Calc_FPGA_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Full_Calc_FPGA_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Full_Calc_FPGA.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="Full_Calc_FPGA_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Full_Calc_FPGA_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Full_Calc_FPGA_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Full_Calc_FPGA_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Full_Calc_FPGA_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Full_Calc_FPGA_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Full_Calc_FPGA_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Full_Calc_FPGA_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Full_Calc_FPGA_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Full_Calc_FPGA_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Full_Calc_FPGA_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Full_Calc_FPGA_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Full_Calc_FPGA.bit"/>
+  <File Type="BITSTR-RBT" Name="Full_Calc_FPGA.rbt"/>
+  <File Type="BITSTR-NKY" Name="Full_Calc_FPGA.nky"/>
+  <File Type="BG-DRC" Name="Full_Calc_FPGA.drc"/>
+  <File Type="RDI-RDI" Name="Full_Calc_FPGA.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/AND.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/AND.v"/>
+        <Attr Name="ImportTime" Val="1552340877"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/CLA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/CLA.v"/>
+        <Attr Name="ImportTime" Val="1552714656"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/CU.v"/>
+        <Attr Name="ImportTime" Val="1556779636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Calculator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Calculator.v"/>
+        <Attr Name="ImportTime" Val="1557237981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Calculator_CU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Calculator_CU.v"/>
+        <Attr Name="ImportTime" Val="1557243352"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Calculator_DP.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Calculator_DP.v"/>
+        <Attr Name="ImportTime" Val="1557245026"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DP.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/DP.v"/>
+        <Attr Name="ImportTime" Val="1556784678"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/D_reg_clk.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/D_reg_clk.v"/>
+        <Attr Name="ImportTime" Val="1552372474"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Divider.v"/>
+        <Attr Name="ImportTime" Val="1556783747"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Full_Calc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Full_Calc.v"/>
+        <Attr Name="ImportTime" Val="1557239380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Full_Calc_CU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Full_Calc_CU.v"/>
+        <Attr Name="ImportTime" Val="1557239957"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Full_Calc_DP.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Full_Calc_DP.v"/>
+        <Attr Name="ImportTime" Val="1557241697"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/Shift_and_zero_pad.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/Shift_and_zero_pad.v"/>
+        <Attr Name="ImportTime" Val="1552371859"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/XOR.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/XOR.v"/>
+        <Attr Name="ImportTime" Val="1552714655"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/imports/new/bcd_to_7seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/imports/new/bcd_to_7seg.v"/>
+        <Attr Name="ImportTime" Val="1552366875"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/new/button_debouncer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/new/button_debouncer.v"/>
+        <Attr Name="ImportTime" Val="1552714654"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/imports/new/clk_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/imports/new/clk_gen.v"/>
+        <Attr Name="ImportTime" Val="1552712328"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/eight_bit_CLA_Adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/eight_bit_CLA_Adder.v"/>
+        <Attr Name="ImportTime" Val="1552368984"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/new/eight_bit_binary_to_decimal.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/sources_1/new/eight_bit_binary_to_decimal.v"/>
+        <Attr Name="ImportTime" Val="1552368133"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/four_bit_CLA_Adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/four_bit_CLA_Adder.v"/>
+        <Attr Name="ImportTime" Val="1552279620"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/half_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/imports/new/half_adder.v"/>
+        <Attr Name="ImportTime" Val="1552714169"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/new/led_mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_uint_divider/4_bit_uint_divider.srcs/sources_1/imports/imports/new/led_mux.v"/>
+        <Attr Name="ImportTime" Val="1551336973"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/state_register.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/state_register.v"/>
+        <Attr Name="ImportTime" Val="1552356132"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/support_modules.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/support_modules.v"/>
+        <Attr Name="ImportTime" Val="1556780203"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/two_stage_pipeline_mult.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4-bit_comb_mult/4-bit_comb_mult.srcs/sources_1/new/two_stage_pipeline_mult.v"/>
+        <Attr Name="ImportTime" Val="1557226360"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Full_Calc_FPGA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Full_Calc_FPGA.v"/>
+        <Attr Name="ImportTime" Val="1557239026"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Handler.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/sources_1/new/Handler.v"/>
+        <Attr Name="ImportTime" Val="1557233389"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Full_Calc_FPGA"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Full_Calc.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Full_Calc/Full_Calc.srcs/constrs_1/new/Full_Calc.xdc"/>
+        <Attr Name="ImportTime" Val="1557239040"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

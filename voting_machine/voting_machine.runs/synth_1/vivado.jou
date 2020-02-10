@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Feb 27 23:02:17 2019
+# Process ID: 78828
+# Current directory: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/voting_machine/voting_machine.runs/synth_1
+# Command line: vivado.exe -log voting_machine_fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source voting_machine_fpga.tcl
+# Log file: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/voting_machine/voting_machine.runs/synth_1/voting_machine_fpga.vds
+# Journal file: D:/Documents HDD/School/Cmpe 125/Cmpe 125 Projects/voting_machine/voting_machine.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source voting_machine_fpga.tcl -notrace

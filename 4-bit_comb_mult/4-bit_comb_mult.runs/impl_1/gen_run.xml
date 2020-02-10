@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1552712337">
+  <File Type="ROUTE-PWR" Name="two_stage_pipeline_mult_fpga_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="two_stage_pipeline_mult_fpga.tcl"/>
+  <File Type="BITSTR-BMM" Name="two_stage_pipeline_mult_fpga_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="two_stage_pipeline_mult_fpga_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="two_stage_pipeline_mult_fpga_reports.tcl"/>
+  <File Type="OPT-DCP" Name="two_stage_pipeline_mult_fpga_opt.dcp"/>
+  <File Type="OPT-DRC" Name="two_stage_pipeline_mult_fpga_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="two_stage_pipeline_mult_fpga.hwdef"/>
+  <File Type="PWROPT-DCP" Name="two_stage_pipeline_mult_fpga_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="two_stage_pipeline_mult_fpga_placed.dcp"/>
+  <File Type="PLACE-IO" Name="two_stage_pipeline_mult_fpga_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="two_stage_pipeline_mult_fpga_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="two_stage_pipeline_mult_fpga_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="two_stage_pipeline_mult_fpga_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="two_stage_pipeline_mult_fpga_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="two_stage_pipeline_mult_fpga.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="two_stage_pipeline_mult_fpga_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="two_stage_pipeline_mult_fpga.bin"/>
+  <File Type="PHYSOPT-DCP" Name="two_stage_pipeline_mult_fpga_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="two_stage_pipeline_mult_fpga.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="two_stage_pipeline_mult_fpga_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="two_stage_pipeline_mult_fpga_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="two_stage_pipeline_mult_fpga_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="two_stage_pipeline_mult_fpga_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="two_stage_pipeline_mult_fpga_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="two_stage_pipeline_mult_fpga_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="two_stage_pipeline_mult_fpga.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="two_stage_pipeline_mult_fpga_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="two_stage_pipeline_mult_fpga.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="two_stage_pipeline_mult_fpga_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="two_stage_pipeline_mult_fpga_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="two_stage_pipeline_mult_fpga.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="two_stage_pipeline_mult_fpga_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="two_stage_pipeline_mult_fpga_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="two_stage_pipeline_mult_fpga_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="two_stage_pipeline_mult_fpga_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="two_stage_pipeline_mult_fpga_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="two_stage_pipeline_mult_fpga_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="two_stage_pipeline_mult_fpga_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="two_stage_pipeline_mult_fpga_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="two_stage_pipeline_mult_fpga_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="two_stage_pipeline_mult_fpga_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="two_stage_pipeline_mult_fpga_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="two_stage_pipeline_mult_fpga_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="two_stage_pipeline_mult_fpga.bit"/>
+  <File Type="BITSTR-RBT" Name="two_stage_pipeline_mult_fpga.rbt"/>
+  <File Type="BITSTR-NKY" Name="two_stage_pipeline_mult_fpga.nky"/>
+  <File Type="BG-DRC" Name="two_stage_pipeline_mult_fpga.drc"/>
+  <File Type="RDI-RDI" Name="two_stage_pipeline_mult_fpga.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/AND.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/CLA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_CLA_Adder/4_bit_CLA_Adder.srcs/sources_1/new/CLA.v"/>
+        <Attr Name="ImportTime" Val="1552714656"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Shift_and_zero_pad.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/XOR.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_CLA_Adder/4_bit_CLA_Adder.srcs/sources_1/new/XOR.v"/>
+        <Attr Name="ImportTime" Val="1552714655"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/eight_bit_CLA_Adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/four_bit_CLA_Adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_CLA_Adder/4_bit_CLA_Adder.srcs/sources_1/new/four_bit_CLA_Adder.v"/>
+        <Attr Name="ImportTime" Val="1552279620"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/half_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_CLA_Adder/4_bit_CLA_Adder.srcs/sources_1/new/half_adder.v"/>
+        <Attr Name="ImportTime" Val="1552714169"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/four_bit_comb_mult.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/D_reg_clk.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/two_stage_pipeline_mult.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/clk_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_CLA_Adder/4_bit_CLA_Adder.srcs/sources_1/new/clk_gen.v"/>
+        <Attr Name="ImportTime" Val="1552712328"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/state_register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/two_stage_pipeline_mult_fpga.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Cmpe 125 Projects/4_bit_CLA_Adder/4_bit_CLA_Adder.srcs/sources_1/new/led_mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../4_bit_CLA_Adder/4_bit_CLA_Adder.srcs/sources_1/new/led_mux.v"/>
+        <Attr Name="ImportTime" Val="1551336973"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/bcd_to_7seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../voting_machine/voting_machine.srcs/sources_1/new/bcd_to_7seg.v"/>
+        <Attr Name="ImportTime" Val="1551556480"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/button_debouncer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/eight_bit_binary_to_decimal.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="two_stage_pipeline_mult_fpga"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/two_stage_pipeline_mult.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
